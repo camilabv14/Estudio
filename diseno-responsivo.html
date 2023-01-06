@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .container {
-        display: flex;
-        flex-direction: column;
-      }
       div {
-        margin: 20px;
+        background: purple;
+      }
+      @media (min-width: 301px) {
+        div {
+          background: red;
+        }
       }
     </style>
   </head>
   <body>
-    <section class="container">
-      <div>Camila</div>
-      <div>Berrio</div>
-    </section>
+    <div>Camila</div>
   </body>
 </html>
